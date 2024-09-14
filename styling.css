@@ -1,0 +1,149 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 10px;
+}
+
+body>header{
+    background-color: pink;
+}
+
+
+body>header>h1{
+    margin: 5px;
+    padding: 5px;
+    background-color: orange;
+    font: comic ;
+    box-shadow: 20px 20px 15px 15px red;
+    width: 75%
+}
+
+body>header>h1{
+    display: flex;
+    height: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body>header>div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 15px;
+}
+
+body>header>div>article{
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    width: auto;
+    font-family: comic, sans-serif;
+}
+
+body>header>div>img{
+    border-radius: 15%;
+    padding: 15px;
+    margin: 15px;
+    align-self: center;
+}
+
+body>header>div>nav>ul{
+    display: flex;
+}
+
+body>header>div>nav>ul>li{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+/* --------------------------------------header styling section------------------------------------------------------*/
+
+/*----------------------------------------Main styling section-------------------------------------------------------*/
+
+#PS{
+    grid-area: Professional;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+
+#PS{
+    list-style: none;
+    padding: 0px; 
+}
+
+#PS>img{
+    margin-left: 15px;
+    height: 25%;
+ 
+}
+
+#WE{
+    grid-area: Work;
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+#SH{
+    grid-area: Skills;
+    background-color: brown;
+    text-align: center;
+    text-decoration: none;
+}
+#SH>ul{
+    list-style: none;
+padding: 0px;
+}
+#SH>ul>li{
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#HI{
+    background-color: purple;
+    display: grid;
+    align-items: space-between;
+    justify-items: center;
+    grid-area: hobbies; 
+
+}
+
+#HI>ul{
+list-style: none;
+padding: 0px;
+}
+#HI>ul>li{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+#HI>ul>li>img{
+    margin-left: 15px;
+
+}
+
+
+body>main{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-areas: 
+    "Professional Work"
+    "hobbies Skills";
+}
+
+/*-----------------------------------------------------Main Styling section--------------------------------------------------*/
+/*-----------------------------------------------------Footer Styling section------------------------------------------------*/
+
+#footer{
+    background-color: pink;
+    text-align: center;
+}
+
